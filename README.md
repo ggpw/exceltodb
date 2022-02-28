@@ -44,12 +44,15 @@ Take a look on folder src/main/resources/jsonschema.json. This json file acts as
 	]
 }
 ```
-**Explanation**
-filename : your excel file name. Be sure that your excel format is xlsx
-tableName: table name that you want to insert the data
-isBooleanSupport: please refer to this [link] (https://www.databasestar.com/sql-boolean-data-type/)
-fields : all your fields that you want to insert, there might be case that there are column in table that non available in excel but the column is mandatory
-columnName: column name in table
-columnOrder: the order of the column in excel, start with 0. -1 means it's not exist in excel. so you need to define the default value
-columnType: 
-default: default value to fill in if the column is not mapped in excel
+#### Explanation
+<ul>
+	<li>filename : your excel file name. Be sure that your excel format is xlsx</li>
+	<li>tableName: table name that you want to insert the data</li>
+	<li>isBooleanSupport: please refer to this [link] (https://www.databasestar.com/sql-boolean-data-type/)</li>
+	<li>fields : all your fields that you want to insert, there might be case that there are column in table that non available in excel but the column is mandatory</li>
+	<ul>
+		<li>columnName: column name in table</li>
+		<li>columnOrder: the order of the column in excel, start with 0. -1 means it's not exist in excel. so you need to define the default value</li>
+		<li>default: default value to fill in if the column is not mapped in excel</li>	
+	</ul>
+</ul>
