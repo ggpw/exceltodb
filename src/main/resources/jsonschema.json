@@ -1,0 +1,67 @@
+{
+	"datas": [
+		{
+			"fileName": "Dummy",
+			"tableName": "dummy",
+			"isBooleanSupport": true,
+			"fields": [
+				{
+					"columnName": "id",
+					"columnOrder": -1,
+					"columnType": "integer",
+					"isIncrement": true
+				},
+				{
+					"columnName": "created_by",
+					"columnOrder": -1,
+					"columnType": "integer",
+					"default": -1	
+				},
+				{
+					"columnName": "updated_by",
+					"columnOrder": -1,
+					"columnType": "integer",
+					"default": -1
+				},
+				{
+					"columnName": "created_datetime",
+					"columnOrder": -1,
+					"columnType": "timestamp",
+					"default": "CURRENT_TIMESTAMP"	
+				},
+				{
+					"columnName": "updated_datetime",
+					"columnOrder": -1,
+					"columnType": "timestamp",
+					"default": "CURRENT_TIMESTAMP"
+				},
+				{
+					"columnName": "version",
+					"columnOrder": -1,
+					"columnType": "integer",
+					"default": 0
+				},
+				{
+					"columnName": "first_name",
+					"columnOrder": 0,
+					"columnType": "string"
+				},
+				{
+					"columnName": "last_name",
+					"columnOrder": 1,
+					"columnType": "string"
+				},
+				{
+					"columnName": "age",
+					"columnOrder": 2,
+					"columnType": "integer"
+				},
+				{
+					"columnName": "is_deleted",
+					"columnOrder": 3,
+					"columnType": "boolean"
+				}
+			]
+		}
+	]
+}

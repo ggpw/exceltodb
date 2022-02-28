@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: appExcelToDb
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5438/postgres?currentSchema=excel
+    username: excel
+    password: excel
