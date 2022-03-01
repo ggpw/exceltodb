@@ -56,3 +56,5 @@ Take a look on folder src/main/resources/jsonschema.json. This json file acts as
 		<li>default: default value to fill in if the column is not mapped in excel</li>	
 	</ul>
 </ul>
+
+### 3. Copy your XLSX file to folder resources
